@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.avssolutiion.autoheadshot">
+
+    <application
+        android:name=".appClass"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AutoHeadShot"
+        tools:targetApi="31">
+        <activity
+            android:name=".ResoDoneSuccessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResoSettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GraphicDoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MineGraphicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CodGrapicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PubgGrapicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PugActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResolutionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GraphicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data android:name="applovin.sdk.key"
+            android:value="@string/ApplovinSdk"/>
+
+    </application>
+
+</manifest>
